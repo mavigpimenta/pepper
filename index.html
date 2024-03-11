@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/x-icon"  href="peppertur_logo.jfif">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Peppertur</title>
+</head>
+<body>
+    <header>
+        <img src="peppertur_logo.jfif" alt="" class="logo">
+        <nav class="nav-bar">
+            <a href="" class="x active" onclick="toggleActive(event)">Home</a>
+            <a href="" class="x" onclick="toggleActive(event)">Roteiros</a>
+            <a href="" class="x" onclick="toggleActive(event)">Quem Somos</a>
+            <a href="" class="x" onclick="toggleActive(event)">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <div class="home-img"><img src="home-img.jpeg" alt=""></div>
+        <section class="home">
+            <div class="home-content">
+                <h3>Olá,</h3>
+                <h1 class="home-title">Seja bem-vindo à <span class="home-title-color">Peppertur</span></h1>
+            </div>
+            <div class="home-btn">
+                <a href="" class="btn1">Contate-nos</a>
+                <a href="" class="btn2">Saiba Mais</a>
+            </div>
+        </section>
+        <section class="roteiros">
+            <h1 class="title-roteiros">Nossos Roteiros</h1>
+            <ul class="roteiros-box">
+                <li class="box" id="box-1">
+                    <h2>Brusque</h2>
+                    <span>Estado: <b> SC</b></span>
+                    <p>Os shoppings de atacado de Brusque oferecem uma vasta seleção de produtos, desde roupas casuais até itens de moda praia e moda íntima.</p>
+                </li>
+                <li class="box" id="box-2">
+                    <h2>Indaial</h2>
+                    <span>Estado: <b>SC</b></span>
+                    <p>Descubra Indaial, a cidade próxima a Brusque que também faz parte do nosso roteiro de compras. Com excelentes shoppings e uma variedade de produtos incríveis.</p>
+                </li>
+                <li class="box" id="box-3">
+                    <h2>Serra Gaúcha</h2>
+                    <span>Estado: <b>RS</b></span>
+                    <p>Na Serra Gaúcha, você encontrará uma variedade de malharias que produzem tricôs de alta qualidade, conhecidos por sua beleza, conforto e durabilidade. </p>
+                </li>
+                <li class="box" id="box-3">
+                    <h2>Aparecida</h2>
+                    <span>Estado: <b>SP</b></span>
+                    <p>
+                        Embarque em uma jornada espiritual inesquecível rumo a Aparecida, conhecida como o maior santuário mariano do mundo.</p>
+                </li>
+                <li class="box" id="box-3">
+                    <h2>Logística de Compras</h2>
+                    <span>Estado: <b>PR</b></span>
+                    <p>Faça o seu pedido na loja, nos avise e trazemos a mercadoria para você, com opção de retirada no escritório ou entrega em seu estabelecimento.</p>
+                </li>
+                <li class="box" id="box-3">
+                    <h2>Fretamento</h2>
+                    <span>Países: <b>BR</b> <b>AR</b> <b>PY</b> <b>UY</b> <b>BO</b> <b>PE</b></span>
+                    <p>Oferecemos fretamento de ônibus e van dentro do destino de sua escolha. Entre em contato e garanta uma viagem tranquila e segura!</p>
+                </li>
+        </section>
+        <section class="quem-somos">
+            <h1 class="title-qm">Quem Somos</h1>
+            <p class="text-qm">Somos uma empresa familiar que oferece uma experiência única aos nossos clientes. Com destinos cuidadosamente selecionados, proporcionamos a oportunidade de conhecer os melhores shopping atacadistas. Contamos com uma equipe de guias registrados no Cadastur e motoristas altamente qualificados e capacitados.</p>
+            <iframe width="590" height="325" src="https://www.youtube.com/embed/KnfHyNlYK_Y?si=dP1zEEOvjNycYlUB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <ul>
+                <li class="box-qm" id="box-3">
+                    <h2>Visão</h2>
+                    <p>Ser uma instituição de excelência, reconhecida nos locais onde atua.</p>
+                </li>
+                <li class="box-qm" id="box-3">
+                    <h2>Missão</h2>
+                    <p>Ser referência como Transportadora Turística, bem como divulgar os pólos atacadistas de confecções do Brasil, para o setor de varejo, sendo um facilitador entre suas negociações. </p>
+                </li>
+                <li class="box-qm" id="box-3">
+                    <h2>Valores</h2>
+                    <p>- Evangelho - Conforto - Qualidade - Família.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="contact">
+            <h1 class="title-contact">Contato</h1>
+            <div class="contact-container">
+                <form action="" class="contact-form">
+                    <input type="text" placeholder="Nome" class="contact-input">
+                    <input type="email" placeholder="Email" class="contact-input">
+                    <textarea name="" id="" cols="0" rows="10" placeholder="Mensagem" class="contact-input"></textarea>
+                    <div class="button-holder">
+                        <input type="reset" value="Enviar" class="contact-button button">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="footer-title">Peppertur</p>
+        <div class="footer-social">
+            <a href="https://www.instagram.com/peppertur/" class="footer-icon"><i class='bx bxl-instagram'></i></a>
+            <a href="https://maps.app.goo.gl/r2hKXkmU6cDshhJ27" class="footer-icon"><i class='bx bx-map' ></i></a>
+            <a href="https://www.facebook.com/peppertur.com.br/?locale=pt_BR" class="footer-icon"><i class='bx bxl-facebook'></i></i></a>
+            <a href="https://api.whatsapp.com/send/?phone=5541998552425&text&type=phone_number&app_absent=0" class="footer-icon"><i class='bx bxl-whatsapp'></i></a>
+        </div>
+        <p class="footer-copyright">&#169; Maria Vitória Garcia Pimenta. All rigths reserved</p>
+    </footer>
+</body>
+</html>
