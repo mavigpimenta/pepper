@@ -182,7 +182,7 @@ header {
 }
 
 .button:hover {
-    box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.4);
 }
 
 .home-img {
@@ -297,6 +297,10 @@ b {
     text-align: justify;
 }
 
+.box-qm p {
+    text-align: justify;
+}
+
 .title-contact {
     justify-content: center;
     align-items: center;
@@ -355,6 +359,7 @@ textarea {
     font-size: 2rem;
     margin-bottom: 1rem;
     transition: 0.3s ease;
+    font-weight: 700;
 }
 
 .footer-title:hover {
@@ -378,4 +383,6 @@ textarea {
 
 .footer-copyright {
     font-size: 0.75rem;
+    text-decoration: none;
+    color: #0E2431;
 }
